@@ -1,0 +1,205 @@
+/* Estilos da pagina index.html */
+body{
+    background-color: black;
+    color: white;  
+}
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+.animacao{
+    background: linear-gradient(0, #131402, #000000);
+    width: 100%;
+    height: 100%;
+}
+
+.stars{
+    position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+    box-shadow: 50px 30px yellow,
+    250px 450px yellow,
+    80px 820px yellow,
+    300px 450px yellow,
+    250px 560px yellow,
+    200px 630px yellow,
+    150px 450px yellow,
+    600px 770px yellow,
+    800px 120px yellow,
+    830px 930px yellow,
+    350px 140px yellow,
+    950px 870px yellow,
+    800px 540px yellow,
+    700px 900px yellow;
+    animation: anim-stars 10s linear infinite;
+}
+
+.stars::after{
+    position: absolute;
+    content: " ";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px yellow,
+    100px 800px yellow,
+    80px 900px yellow,
+    300px 842px yellow,
+    250px 130px yellow,
+    200px 50px yellow,
+    150px 800px yellow,
+    400px 700px yellow,
+    750px 500px yellow,
+    950px 346px yellow,
+    500px 300px yellow;
+  }
+
+.stars2{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px white,
+    160px 870px yellow,
+    360px 120px yellow,
+    430px 20px yellow,
+    250px 500px yellow,
+    200px 50px yellow,
+    150px 600px yellow,
+    400px 700px yellow,
+    750px 95px yellow,
+    840px 900px yellow,
+    500px 95px yellow;
+    animation: anim-stars 20s linear infinite;
+  }
+
+.stars2::after{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px yellow,
+    150px 888px yellow,
+    650px 685px yellow,
+    700px 120px yellow,
+    750px 789px yellow,
+    800px 940px yellow,
+    850px 700px yellow,
+    900px 130px yellow,
+    950px 540px yellow,
+    999px 900px yellow;
+  }
+
+.inicio{
+    color: yellowgreen;
+    background-color: yellow;
+    
+}
+
+#menu ul{
+    text-align: left;
+    margin-top: 17px;
+}
+
+#menu li{
+    display: inline-block;
+    border: 1px solid rgb(124, 124, 4);
+    margin-left: 10px;
+}
+
+#menu li a{
+    display: inline-block;
+    padding: 8px 18px 8px 18px;
+    text-decoration:none;
+    color:inherit;
+    font-size: 18px;
+    text-align: right;
+}
+
+#menu li a:hover{
+    color:yellow;
+    background: rgba(58, 49, 18, 0.5);
+}
+
+.titulo{
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.titulo:hover{
+    color:yellow;
+}
+
+.parte1{
+    text-align: justify;
+    border: 1px solid rgb(124, 124, 4);
+    padding: 15px;
+}
+
+.parte2{
+    text-align: justify;
+    border: 1px solid rgb(124, 124, 4);
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.imagem{
+    margin-left: 50px;
+    border: 1px solid rgb(12, 12, 12);
+}
+
+.imagem:hover{
+    -moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+.wh{
+    width: 380px;
+    height: 350px;
+}
+
+.h2{
+    text-align: right;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.logorede{
+    padding-right: 20px;
+}
+
+/* Estilos da pagina contato.html */
+
+.contato{
+    text-align: left;
+    margin-left: 115px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.margemL{
+    margin-left: 50px;
+}
